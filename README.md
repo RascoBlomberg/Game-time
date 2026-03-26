@@ -18,9 +18,9 @@ För Valheim finns en "Smelter Calculator". Användaren anger hur mycket ore och
 Syftet med applikationen är att förenkla planering och resursoptimering i olika spel genom att ge spelaren tydliga och snabba beräkningar baserade på spelets mekanik.
 
 ## Routing
-* /     ->      HomePage
-* /coc  ->      CoCPage
-* /valheim ->   ValheimPage
+* `/`     ->      **HomePage**
+* `/coc`  ->      **CoCPage**
+* `/valheim` ->   **ValheimPage**
 
 ## Data
 ```typescript
