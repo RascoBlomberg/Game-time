@@ -1,8 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-
-function Home() {
-  return <h1>Home</h1>;
-}
+import CoCPage from "./pages/cocpage";
+import HomePage from "./pages/homepage";
 
 function About() {
   return <h1>About</h1>;
@@ -15,9 +13,10 @@ function NotFound() {
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<About />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/coc" element={<CoCPage />} />
     </Routes>
   );
 }
