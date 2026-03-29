@@ -4,16 +4,16 @@ export default function GamePage() {
   return (
     <div>
       <Navbar />
-      <div className="flex gap-6 p-2 m-2">
+      <div className="flex gap-6 p-2 m-2 justify-center">
         <DisplayCard
           title="Clash of Clans"
           link="/coc"
-          image="src\assets\hero.png"
+          image="src\assets\coc (2).png"
         />
         <DisplayCard
           title="Clash of Clans"
           link="/coc"
-          image="src\assets\hero.png"
+          image="src\assets\valheim-displaycard.png"
         />
       </div>
     </div>
