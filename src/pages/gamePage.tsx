@@ -4,7 +4,7 @@ export default function GamePage () {
     return (
         <div>
             <Navbar />
-            <DisplayCard title="Clash of Clans" link="/coc" />
+            <DisplayCard title="Clash of Clans" link="/coc" image="src\assets\hero.png"/>
         </div>
     )
 }
