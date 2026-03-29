@@ -1,11 +1,9 @@
-import DisplayCard from "../comps/display-card";
-
+import Navbar from "../comps/navbar";
 export default function HomePage() {
     return (
         <div>
+            <Navbar/>
             <h1>Game Calcualtor</h1>
-
-            <DisplayCard title="Clash of Clans" link="/coc" />
         </div>
     )
 }
