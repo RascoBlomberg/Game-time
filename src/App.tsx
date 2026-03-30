@@ -3,6 +3,7 @@ import CoCPage from "./pages/cocPage";
 import HomePage from "./pages/homePage";
 import About from "./pages/aboutPage";
 import GamePage from "./pages/gamePage";
+import ValheimPage from "./pages/valheimPage";
 function NotFound() {
   return <h1>404</h1>;
 }
@@ -15,6 +16,7 @@ export default function App() {
       <Route path="*" element={<NotFound />} />
       <Route path="/coc" element={<CoCPage />} />
       <Route path="/gamePage" element={<GamePage />} />
+      <Route path="/valheimPage" element={<ValheimPage />} />
     </Routes>
   );
 }

@@ -11,8 +11,8 @@ export default function GamePage() {
           image="src\assets\coc (2).png"
         />
         <DisplayCard
-          title="Clash of Clans"
-          link="/coc"
+          title="Valheim"
+          link="/valheimPage"
           image="src\assets\valheim-displaycard.png"
         />
       </div>
