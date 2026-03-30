@@ -26,8 +26,8 @@ export default function ValheimClock() {
     return () => clearInterval(interval);
   }, [isRunning, timeLeft]);
 
-  const oreLeft = Math.floor(timeLeft / 30);
-  const coalLeft = Math.floor(timeLeft / 15);
+  const coalLeft = Math.max(Number(coal) - Math.floor((coalTime - timeLeft) / 15), 0);
+  const oreLeft = Math.max(Number(ore) - Math.floor((oreTime - timeLeft) / 30), 0);
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
 
@@ -56,8 +56,8 @@ export default function ValheimClock() {
           {String(seconds).padStart(2, "0")}
         </p>
         <p>
-            coal left: {coalLeft} <br />
-            ore left: {oreLeft}
+          coal left: {coalLeft} <br />
+          ore left: {oreLeft}
         </p>
       </div>
     </div>
