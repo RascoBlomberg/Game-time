@@ -1,3 +1,4 @@
+import Footer from "../comps/footer";
 import Navbar from "../comps/navbar";
 import ValheimClock from "../comps/valheimClock";
 
@@ -19,6 +20,7 @@ export default function ValheimPage() {
                 </div>
             </main>
         </div>
+        <Footer/>
     </div>
   );
 }

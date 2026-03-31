@@ -1,3 +1,4 @@
+import Footer from "../comps/footer";
 import Navbar from "../comps/navbar";
 import PotionsClock from "../comps/potions-clock";
 
@@ -20,6 +21,7 @@ export default function CoCPage() {
           </div>
         </main>
       </div>
+      <Footer/>
     </div>
   );
 }

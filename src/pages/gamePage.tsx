@@ -1,3 +1,4 @@
+import Footer from "../comps/footer";
 import DisplayCard from "../comps/display-card";
 import Navbar from "../comps/navbar";
 export default function GamePage() {
@@ -17,6 +18,7 @@ export default function GamePage() {
           image="src\assets\valheim-displaycard.png"
         />
       </div>
+      <Footer/>
     </div>
   );
 }
