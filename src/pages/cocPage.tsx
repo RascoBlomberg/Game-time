@@ -7,7 +7,7 @@ export default function CoCPage() {
       className="min-h-screen bg-cover bg-center relative text-white flex flex-col"
       style={{ backgroundImage: "url(/coc-bg.png)" }}
     >
-      <div className="absolute inset-0 bg-black/30 pointer-events-none z-0"></div>
+      
       <Navbar />
       <div className="relative z-10 flex item-center justify-center min-h-screen">
         
