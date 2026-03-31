@@ -43,3 +43,35 @@ type Result = {
 };
 
 ```
+
+
+Krav för godkänt:
+1. Projektet innehåller och använder minst 6 stycken komponenter varav minst 2 stycken
+är “statefulla"-komponenter. [X]
+2. React Router har använts för att dynamiskt uppdatera URL’en. [X]
+3. Git & GitHub har använts [X]
+4. Projektmappen innehåller en README.md fil - (läs ovan för mer info) [X]
+5. Uppgiften lämnas in i tid! [X]
+6. Muntlig presentation är genomförd []
+
+
+## Installation och uppstart - terminal
+
+```bash
+cd C:/
+git clone <gitrepo-url>
+cd <gitrepo-namn>
+npm install
+npm run dev
+
+
+```
+
+För att använda dig av **git** och **npm** behöver man installera de på datorn först
+
+Git - https://git-scm.com/
+
+npm (Node.jS) - https://nodejs.org/en
+
+## Vercel länk
+https://game-time-beryl.vercel.app/
