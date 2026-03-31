@@ -1,6 +1,8 @@
 import Footer from "../comps/footer";
 import Navbar from "../comps/navbar";
 import { useNavigate } from "react-router";
+import PageTitle from "../comps/title";
+
 export default function HomePage() {
   const navigate = useNavigate();
   return (
@@ -9,7 +11,7 @@ export default function HomePage() {
       style={{ backgroundImage: "url(/valheim-bg1.jpg)" }}
     >
       <Navbar />
-
+        <PageTitle title="Game Clock" />
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-6">
         <h1 className="text-5xl md:text-7xl font-extrabold text-orange-400 drop-shadow-lg">
           Game Clock

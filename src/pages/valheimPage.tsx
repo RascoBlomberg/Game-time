@@ -1,5 +1,6 @@
 import Footer from "../comps/footer";
 import Navbar from "../comps/navbar";
+import PageTitle from "../comps/title";
 import ValheimClock from "../comps/valheimClock";
 
 export default function ValheimPage() {
@@ -8,7 +9,7 @@ export default function ValheimPage() {
       className="min-h-screen bg-cover bg-center relative text-white flex flex-col"
       style={{ backgroundImage: "url(/valheim-bg.jpg)" }}
     >
-        
+        <PageTitle title="Valheim" />
         <Navbar />
         <div className="relative z-10 flex items-center justify-center min-h-screen">
             <main className="flex flex-col items-center p-8 max-w-lg mx-auto w-full bg-stone-900/60 backdrop-blur-md rounded-3xl shadow-lg mt-28 mb-12 border border-orange-800">

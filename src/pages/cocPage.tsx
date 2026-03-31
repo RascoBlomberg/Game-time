@@ -1,6 +1,7 @@
 import Footer from "../comps/footer";
 import Navbar from "../comps/navbar";
 import PotionsClock from "../comps/potions-clock";
+import PageTitle from "../comps/title";
 
 export default function CoCPage() {
   return (
@@ -8,7 +9,7 @@ export default function CoCPage() {
       className="min-h-screen bg-cover bg-center relative text-white flex flex-col"
       style={{ backgroundImage: "url(/coc-bg.png)" }}
     >
-      
+      <PageTitle title="Clash of clans" />
       <Navbar />
       <div className="relative z-10 flex item-center justify-center min-h-screen">
         
