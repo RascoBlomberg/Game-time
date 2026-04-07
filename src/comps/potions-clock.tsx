@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function PotionsClock() {
   const [hours, setHours] = useState("");
   const [potions, setPotions] = useState("");
-  const timeLeft = Number(hours) - 9 * Number(potions);
+  const timeLeft = Number(hours) - 10 * Number(potions);
   return (
     <div className="text-yellow-300 rounded-2xl p-6 flex flex-col gap-4 w-full">
       <h2 className="text-2xl font-bold text-center mb-2 drop-shadow-lg">
