@@ -19,6 +19,7 @@ export default function GamePage() {
           title="Valheim"
           link="/valheimPage"
           image="/valheim-displaycard.png"
+          description="a countdown clock for the smellting time of ore"
         />
       </div>
       <Footer/>
